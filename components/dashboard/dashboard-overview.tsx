@@ -9,7 +9,7 @@ import {
   PieChart, Pie, Cell, ResponsiveContainer, 
   BarChart, Bar, XAxis, YAxis, Tooltip,
 } from 'recharts';
-import { Calendar, Clock, ArrowRight, BarChart as BarChartIcon, Target, Calendar as CalendarIcon, BriefcaseIcon } from 'lucide-react';
+import { Clock, ArrowRight, BarChart as BarChartIcon, Target, CalendarIcon, BriefcaseIcon } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 // Sample data for the dashboard
@@ -239,7 +239,7 @@ export function DashboardOverview() {
                             </p>
                             <div className="flex items-center space-x-4 text-sm text-slate-500 dark:text-slate-400">
                               <div className="flex items-center">
-                                <Calendar size={14} className="mr-1" />
+                                <CalendarIcon size={14} className="mr-1" />
                                 {session.date}
                               </div>
                               <div className="flex items-center">
