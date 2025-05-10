@@ -180,7 +180,7 @@ export function DashboardOverview() {
                     <BarChart
                       data={roadmapProgressData}
                       layout="vertical"
-                      margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
+                      margin={{ top: 5, right: 30, left:33, bottom: 5 }}
                     >
                       <XAxis type="number" domain={[0, 100]} />
                       <YAxis dataKey="name" type="category" />
